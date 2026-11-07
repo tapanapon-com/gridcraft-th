@@ -1,0 +1,37 @@
+{
+  "id": "gridcraft",
+  "name": "GridCraft",
+  "repository": "https://github.com/tapanapon-com/gridcraft-th",
+  "status": "documentation-only",
+  "containsApplicationSource": false,
+  "thaiVersion": null,
+  "thaiArticle": null,
+  "upstream": {
+    "repository": "https://github.com/storytold/gridcraft",
+    "releaseTag": "v0.17.0",
+    "releaseUrl": "https://github.com/storytold/gridcraft/releases/tag/v0.17.0",
+    "publishedAt": "2026-11-06T20:21:45Z",
+    "checkedAt": "2026-11-07T03:59:09.433727+00:00",
+    "sourceCommit": "6a8eb4ff42cfa88b5bdd3eec13c6db3874d95214",
+    "sourceVersion": "0.16.0",
+    "macDownload": "https://github.com/storytold/gridcraft/releases/download/v0.17.0/gridcraft-0.17.0-macos-universal.dmg",
+    "windowsDownload": "https://github.com/storytold/gridcraft/releases/download/v0.17.0/gridcraft-0.17.0-windows-x64.msi",
+    "portableDownload": "https://github.com/storytold/gridcraft/releases/download/v0.17.0/gridcraft-0.17.0-windows-x64-portable.zip",
+    "checksums": "https://github.com/storytold/gridcraft/releases/download/v0.17.0/SHA256SUMS.txt",
+    "changes": [
+      {
+        "text": "ปรับจุดอ้างอิงสูตรสัมพัทธ์ใน Data Validation และ Conditional Formatting ให้เริ่มจากเซลล์ซ้ายบนของทุกช่วง",
+        "source": "https://github.com/storytold/gridcraft/pull/3173"
+      },
+      {
+        "text": "ตรวจสิทธิ์ของชีตที่ย้ายคอลัมน์ และปฏิเสธการแก้ไขที่ปลดล็อกเซลล์ซึ่งถูกป้องกัน",
+        "source": "https://github.com/storytold/gridcraft/pull/3196"
+      },
+      {
+        "text": "ปรับการเปลี่ยนชื่อหัวตารางซ้ำใน XLSX เพื่อลดการลอง suffix ที่ถูกใช้แล้ว",
+        "source": "https://github.com/storytold/gridcraft/pull/3213"
+      }
+    ]
+  },
+  "versionLog": "https://tapanapon.com/one-per-craft/versions#gridcraft"
+}
